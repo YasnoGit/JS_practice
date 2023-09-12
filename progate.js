@@ -28,3 +28,15 @@ console.log(number);
 let length = 5;
 console.log(length);
 console.log(length * length * 3);
+
+// 定数
+const name1 = "John"
+const language = "フランス語"
+console.log(language);
+console.log(language + "を話せます");
+
+// テンプレートリテラル
+const name2 = "にゃんじゃわんこ"
+const age = 14;
+console.log('僕の名前は ${name2} です');
+console.log('今は ${age}歳です');
